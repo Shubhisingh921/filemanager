@@ -3,20 +3,20 @@ seeds = false
 skip-lint = false
 
 [programs.localnet]
-soldrive = "5QEzcF7HPx6z3oN4Fu8cqxGr99oUEGS4uE4MrazyjstF"
+soldrive = "E4nVBaHnofwEpP8nnN76vrMQJ6c1qVk6xpLMGz9ZXVjc"
 
 [programs.devnet]
-soldrive = "5QEzcF7HPx6z3oN4Fu8cqxGr99oUEGS4uE4MrazyjstF"
+soldrive = "E4nVBaHnofwEpP8nnN76vrMQJ6c1qVk6xpLMGz9ZXVjc"
 
 [programs.mainnet]
-soldrive = "5QEzcF7HPx6z3oN4Fu8cqxGr99oUEGS4uE4MrazyjstF"
+soldrive = "E4nVBaHnofwEpP8nnN76vrMQJ6c1qVk6xpLMGz9ZXVjc"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
 cluster = "devnet"
-wallet = "/Users/bbev/.config/solana/id.json"
+wallet = "/home/codespace/.config/solana/id.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

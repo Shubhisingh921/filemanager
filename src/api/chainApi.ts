@@ -23,7 +23,7 @@ import idl from "../../anchor/target/idl/soldrive.json";
 import { Soldrive } from "../../anchor/target/types/soldrive";
 // eslint-disable-next-line
 import * as solApi from "../../anchor/app/api";
-const address = "5QEzcF7HPx6z3oN4Fu8cqxGr99oUEGS4uE4MrazyjstF";
+const address = "E4nVBaHnofwEpP8nnN76vrMQJ6c1qVk6xpLMGz9ZXVjc";
 
 // Config
 const CLUSTER_KEY = "cluster";
@@ -104,7 +104,7 @@ export function useAnchorProvider(
 }
 
 export function getCluster(): Cluster {
-  if (LOCAL_WALLET) return "localnet";
+  if (LOCAL_WALLET) return "mainnet";
   const clusterStr = localStorage.getItem(CLUSTER_KEY);
   if (clusters.some((c) => c == clusterStr)) return clusterStr as Cluster;
   return "devnet";
