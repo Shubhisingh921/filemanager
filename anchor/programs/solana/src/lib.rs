@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("5QEzcF7HPx6z3oN4Fu8cqxGr99oUEGS4uE4MrazyjstF");
+declare_id!("E4nVBaHnofwEpP8nnN76vrMQJ6c1qVk6xpLMGz9ZXVjc");
 
 fn timestamp() -> i64 {
     let clock: Clock = Clock::get().unwrap();
